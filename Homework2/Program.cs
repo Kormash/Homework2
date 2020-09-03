@@ -10,7 +10,14 @@ namespace Homework2
     {
         static void Main(string[] args)
         {
-            //Testing changes!
+            Program program = new Program;
+
+            program.Function();
+        }
+
+        void Function()
+        {
+            //Do stuff
         }
     }
 }
